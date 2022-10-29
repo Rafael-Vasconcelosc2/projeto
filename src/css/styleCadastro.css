@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#telacadastro{
+    width: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    box-shadow: 1px 5px 30px rgb(8, 152, 248);
+}
+#cadatro{
+    text-align: center;
+}
+#fundo{
+    background-image:url("../img/fundoCadastro.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+@media screen and (max-width: 600px) {
+    #telacadastro{
+        width: 400px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -30%);
+        box-shadow: 1px 5px 30px rgb(248, 44, 8);
+    }
+    #button1{
+        width: 110px;
+        height: 50px;
+        margin: 4px;
+        margin-left: 60px;
+
+    }
+    #button2{
+        width:110px;
+        height: 50px;
+        margin: 4px;
+    
+
+    }
+    
+}
+
+@media screen and (max-width: 400px) {
+    #telacadastro{
+        width: 300px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -30%);
+        box-shadow: 1px 5px 30px rgb(248, 8, 156);
+    }
+    #button1{
+        width: 110px;
+        height: 50px;
+        margin: 4px;
+        margin-left: 16px;
+
+    }
+    #button2{
+        width:110px;
+        height: 50px;
+        margin: 4px;
+    
+
+    }
+    
+}
